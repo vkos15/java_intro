@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
      WebSite site = new WebSite();
      String aString="Hello";
-        var i = 44;
+        //var i = 44;
 
     }
 
