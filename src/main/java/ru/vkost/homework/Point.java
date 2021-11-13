@@ -1,6 +1,5 @@
 package ru.vkost.homework;
 
-
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -14,6 +13,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
+
         Point[] points = new Point[4];
 
         points[0] = new Point(5, 2);
@@ -35,13 +35,10 @@ public class Point {
             }
         };
 
-
         Arrays.sort(points, byX);
         System.out.println("Сортировка byX: " + Arrays.toString(points));
         Arrays.sort(points, byY);
         System.out.println("Сортировка byY: " + Arrays.toString(points));
-
-
     }
 
     @Override
